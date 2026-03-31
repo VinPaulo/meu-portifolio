@@ -35,7 +35,7 @@ export function ContactSection() {
           <div className="flex gap-8">
             {[
               { Icon: Linkedin, href: "https://www.linkedin.com/in/vinaudpaulo-lemos/" },
-              { Icon: Github, href: "https://github.com/VinPaulo" }
+              { Icon: Github, href: "https://github.com/PVLemos" }
             ].map((item, i) => (
               <a 
                 key={i} 

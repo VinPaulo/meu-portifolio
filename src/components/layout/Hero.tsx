@@ -61,7 +61,7 @@ export function Hero() {
             
             <div className="w-full h-full rounded-full overflow-hidden border-[12px] border-white dark:border-slate-900 shadow-2xl relative z-10">
               <img 
-                src="https://github.com/VinPaulo.png" 
+                src="https://github.com/PVLemos.png" 
                 alt="Paulo Lemos" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" 
               />
