@@ -51,6 +51,12 @@ export const translations = {
           description: "Sistema Full-Stack de gerenciamento financeiro com API RESTful em Java 17 e Spring Boot 3, interface moderna em React 19 com TypeScript, PostgreSQL e containerização com Docker Compose.",
           tech: ["Java", "Spring Boot", "React", "TypeScript", "PostgreSQL", "Docker"],
           link: "https://github.com/VinPaulo/ProjetoLabdeProgramacao",
+        },
+        {
+          title: "Simulador de Árvore AVL",
+          description: "Simulador visual de Árvores AVL desenvolvido em C com a biblioteca gráfica Allegro. Foco na implementação prática de estruturas de dados e algoritmos.",
+          tech: ["C", "Allegro", "Estruturas de Dados", "Algoritmos"],
+          link: "https://github.com/PVLemos/AVLSimulator",
         }
       ]
     },
@@ -146,6 +152,12 @@ export const translations = {
           description: "Full-Stack financial management system with a RESTful API in Java 17 and Spring Boot 3, a modern React 19 interface with TypeScript, PostgreSQL and Docker Compose containerization.",
           tech: ["Java", "Spring Boot", "React", "TypeScript", "PostgreSQL", "Docker"],
           link: "https://github.com/VinPaulo/ProjetoLabdeProgramacao",
+        },
+        {
+          title: "AVL Tree Simulator",
+          description: "Visual simulator for AVL Trees developed in C using the Allegro graphics library. Focused on practical implementation of data structures and algorithms.",
+          tech: ["C", "Allegro", "Data Structures", "Algorithms"],
+          link: "https://github.com/PVLemos/AVLSimulator",
         }
       ]
     },
