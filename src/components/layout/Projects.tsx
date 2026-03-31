@@ -20,7 +20,8 @@ export function Projects() {
             <motion.div 
               key={i}
               whileHover={{ y: -15 }}
-              className="group p-10 md:p-14 bg-slate-50 dark:bg-slate-900/40 backdrop-blur-md border border-slate-200 dark:border-white/5 rounded-[3rem] flex flex-col justify-between hover:border-blue-500/30 transition-all duration-500 shadow-xl dark:shadow-2xl"
+              onClick={() => window.open(project.link, '_blank')}
+              className="group p-10 md:p-14 bg-slate-50 dark:bg-slate-900/40 backdrop-blur-md border border-slate-200 dark:border-white/5 rounded-[3rem] flex flex-col justify-between hover:border-blue-500/30 transition-all duration-500 shadow-xl dark:shadow-2xl cursor-pointer"
             >
               <div className="space-y-8">
                 {/* Header do Projeto */}
@@ -29,7 +30,7 @@ export function Projects() {
                     {project.title}
                   </h3>
                   <div className="flex gap-4">
-                    <a href={project.link} target="_blank" className="p-4 bg-white dark:bg-slate-950 rounded-full border border-slate-200 dark:border-transparent text-slate-700 dark:text-slate-500 hover:text-blue-600 dark:hover:text-white hover:border-blue-300 transition-all">
+                    <a href={project.link} target="_blank" onClick={(e) => e.stopPropagation()} className="p-4 bg-white dark:bg-slate-950 rounded-full border border-slate-200 dark:border-transparent text-slate-700 dark:text-slate-500 hover:text-blue-600 dark:hover:text-white hover:border-blue-300 transition-all">
                       <Github size={24} />
                     </a>
                   </div>

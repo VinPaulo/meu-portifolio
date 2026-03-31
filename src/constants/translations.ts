@@ -26,19 +26,19 @@ export const translations = {
           title: "Analytics para Restaurantes",
           description: "Dashboard BI Full-stack desenvolvido com React 18 e Node.js. Foco em gestão de dados em tempo real e persistência com PostgreSQL.",
           tech: ["React 18", "Node.js", "PostgreSQL", "BI"],
-          link: "https://github.com/PVLemos",
+          link: "https://github.com/PVLemos/Case-nola-god-level",
         },
         {
           title: "Autenticação Segura .NET",
           description: "Sistema robusto em C# .NET com Identity e JWT. Implementação de padrões MVC e segurança de dados para aplicações escaláveis.",
           tech: ["C#", ".NET Core", "JWT", "Identity"],
-          link: "https://github.com/PVLemos",
+          link: "https://github.com/PVLemos/PersonControllerAPI",
         },
         {
           title: "Estruturas de Dados Avançadas",
           description: "Implementação de Árvores AVL e algoritmos de alta performance (Heap/Merge Sort) em C, com foco em otimização de memória.",
           tech: ["C", "C++", "Algoritmos", "Memory Management"],
-          link: "https://github.com/PVLemos",
+          link: "https://github.com/PVLemos/ProjetoAlgoritmosOrdenacao",
         },
         {
           title: "Case Intuitive Care",
