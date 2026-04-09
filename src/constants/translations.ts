@@ -115,7 +115,7 @@ export const translations = {
     about: {
       titlePart1: "My",
       titlePart2: "Journey",
-      paragraph1: "Currently in my 5th semester of Information Systems at <span class='text-white'>UFV</span>, I am part of <span class='text-blue-500'>InfoAlto</span> (Junior Enterprise) and conducting research on Deep Learning, focusing on performance and scalability.",
+      paragraph1: "Currently in my 5th semester of Information Systems at <span class='text-white'>UFV</span>, I am part of <span class='text-blue-500'>InfoAlto</span> (Junior Enterprise) and conducting research on Deep Learning.",
       paragraph2: "With a technical background in electronics from <span className=\"text-white\">CEFET-MG</span>, I apply hardware concepts to robust distributed software architectures.",
     },
     projects: {
