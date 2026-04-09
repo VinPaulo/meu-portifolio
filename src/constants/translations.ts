@@ -7,7 +7,7 @@ export const translations = {
     },
     hero: {
       greeting: "Olá, eu sou",
-      role: "Sou estudante de Sistemas de Informação na UFV e busco uma oportunidade onde eu possa aplicar o que venho estudando em um ambiente real de produção.",
+      role: "Estudante de Sistemas de Informação na UFV e desenvolvedor, busco uma oportunidade onde eu possa aplicar o que venho estudando em um ambiente real de produção.",
       viewProjects: "VER PROJETOS",
       downloadCV: "DOWNLOAD CV",
     },
@@ -108,14 +108,14 @@ export const translations = {
     },
     hero: {
       greeting: "Hi, I am",
-      role: "Information Systems student at UFV. In search of my first job experience.",
+      role: "Information Systems student at UFV and developer, seeking an opportunity where I can apply what I have been studying in a real production environment.",
       viewProjects: "VIEW PROJECTS",
       downloadCV: "DOWNLOAD CV",
     },
     about: {
       titlePart1: "My",
       titlePart2: "Journey",
-      paragraph1: "Currently in my 5th semester of Information Systems at <span class='text-white'>UFV</span>, I am part of <span class='text-blue-500'>InfoAlto</span> (Junior Enterprise) and conducting research on Distributed Systems, focusing on performance and scalability.",
+      paragraph1: "Currently in my 5th semester of Information Systems at <span class='text-white'>UFV</span>, I am part of <span class='text-blue-500'>InfoAlto</span> (Junior Enterprise) and conducting research on Deep Learning, focusing on performance and scalability.",
       paragraph2: "With a technical background in electronics from <span className=\"text-white\">CEFET-MG</span>, I apply hardware concepts to robust distributed software architectures.",
     },
     projects: {
