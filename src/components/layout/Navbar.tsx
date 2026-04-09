@@ -3,9 +3,12 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/components/layout/LanguageContext"; // Certifique-se de criar o contexto antes
 import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
+import { Sun, Moon } from "lucide-react";
 
 export function Navbar() {
   const { lang, setLang, t } = useLanguage();
+  const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   // Evita erro de hidratação
@@ -36,8 +39,14 @@ export function Navbar() {
 
         {/* Seletor de Idioma e CTA */}
         <div className="flex items-center gap-8">
-          {/* Theme Toggle Removed */}
-
+          {/* Theme Toggle */}
+          <button
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            className="text-black dark:text-slate-400 hover:text-blue-600 dark:hover:text-white transition-colors flex items-center"
+            aria-label="Toggle Theme"
+          >
+            {theme === "dark" ? <Sun size={18} strokeWidth={2.5} /> : <Moon size={18} strokeWidth={2.5} />}
+          </button>
 
           {/* Seletor PT/EN */}
           <div className="flex gap-2 text-[10px] font-black">

@@ -1,21 +1,23 @@
 @import "tailwindcss";
-
+@custom-variant dark (&:is(.dark *));
 @theme {
   --font-inter: "Inter", sans-serif;
   --radius-pill: 2.5rem;
   --font-weight-black: 900;
   
   --color-primary: #2563eb;
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
 }
 
 :root {
-  /* Default to Dark Mode */
-  --color-background: #020617;
-  --color-foreground: #ffffff;
+  /* Default to Light Mode */
+  --color-background: #ffffff;
+  --color-foreground: #020617;
 }
 
 .dark {
-  /* Dark Mode (Redundant but kept for safety) */
+  /* Dark Mode */
   --color-background: #020617;
   --color-foreground: #ffffff;
 }

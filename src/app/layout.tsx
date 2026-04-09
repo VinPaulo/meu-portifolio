@@ -28,8 +28,8 @@ export default function RootLayout({
         {/* ThemeProvider gerencia o modo Dark/Light via classe */}
         <ThemeProvider 
           attribute="class" 
-          defaultTheme="dark"
-          forcedTheme="dark"
+          defaultTheme="system"
+          enableSystem
           disableTransitionOnChange
         >
           {/* LanguageProvider gerencia a tradução PT/EN */}
